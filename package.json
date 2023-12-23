@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:app1": "pnpm --filter @ts-hexschool-2023/app1 dev"
+    "dev:app1": "pnpm --filter @ts-hexschool-2023/app1 dev",
+    "dev:video-06": "pnpm --filter @ts-hexschool-2023/video-06-react dev",
+    "build:video-06": "pnpm --filter @ts-hexschool-2023/video-06-react build",
+    "preview:video-06": "pnpm --filter @ts-hexschool-2023/video-06-react preview"
   },
   "keywords": [],
   "author": "",
