@@ -1,0 +1,16 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers: {}
+
+  apps/app1:
+    specifiers:
+      '@ts-hexschool-2023/package1': workspace:^
+    dependencies:
+      '@ts-hexschool-2023/package1': link:../../packages
+
+  packages:
+
+    specifiers: {}

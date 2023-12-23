@@ -1,0 +1,16 @@
+{
+  "name": "@ts-hexschool-2023/app1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ts-hexschool-2023/package1": "workspace:^"
+  }
+}
